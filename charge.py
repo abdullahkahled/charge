@@ -26,7 +26,7 @@ while True:
     charging = battery.power_plugged
     charge_percentage = battery.percent
     
-    if charging== True and charge_percentage ==80 or charge_percentage >=80:
+    if charging== True and charge_percentage >=80:
          if notification_sent == False:
               btr()
               notification_sent = True
